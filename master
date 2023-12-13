@@ -1,0 +1,20 @@
+pipeline {  
+    agent any  
+    stages {  
+            stage ('Build') {  
+                'Build the project...'  
+            }  
+            stage ('Test') {  
+                'Test the project...'  
+            }  
+            stage ('QA') {  
+                'QA the project...'  
+            }  
+            stage ('Deploy') {  
+                'Deploy the project...'  
+            }  
+            stage ('Monitor') {  
+                'Monitor the prooject...'  
+            }  
+    }  
+} 
